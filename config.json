@@ -1,7 +1,8 @@
 {
-  "whisperModelPath": "/home/kache/models/whisper/ggml-tiny.en.bin",
+  "whisperModelPath": "./models/whisper/ggml-tiny.en.bin",
   "audioListenerScript": "record_audio.sh",
-  "piperModelPath": "~/models/piper/en-gb-southern_english_female-low.onnx",
+  "lora": "",
+  "piperModelPath": "./models/piper/en-gb-southern_english_female-low.onnx",
   "voiceActivityDetectionEnabled": true,
   "interruptionEnabled": true
 }
